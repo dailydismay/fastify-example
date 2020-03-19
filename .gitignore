@@ -2,3 +2,5 @@
 /.vscode
 .env*
 !.env.example
+/dist
+/logs
