@@ -1,0 +1,29 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "dev": "tsc-watch -p tsconfig.json --onSuccess \"node dist/\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.9.2",
+    "dotenv": "^8.2.0",
+    "prettier": "^1.19.1",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.7.0",
+    "tsc-watch": "^4.2.3",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "fastify": "^2.12.1",
+    "fastify-swagger": "^2.5.0",
+    "log4js": "^6.1.2"
+  }
+}

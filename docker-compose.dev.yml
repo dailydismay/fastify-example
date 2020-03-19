@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    environment:
+      - PORT=3333
+    volumes:
+      - .:/app
+      - /app/node_modules
+    restart: always
+    ports:
+      - '3333:3333'
